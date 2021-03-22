@@ -29,7 +29,8 @@ twitter_username: reiterate-app
 github_username:  reiterate-app
 
 # Build settings
-theme: minima
+remote_theme: poole/lanyon
+
 plugins:
   - jekyll-feed
 
