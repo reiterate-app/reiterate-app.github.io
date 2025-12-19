@@ -3,24 +3,43 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  padding-top: $spacing-sm;
+  padding-bottom: $spacing-sm;
+  margin-bottom: $spacing-2xl;
+  border-bottom: 1px solid $color-border;
 }
 
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: $color-text-primary;
+  font-weight: $font-weight-bold;
 
   a {
-    color: #505050;
+    color: $color-text-primary;
+
+    &:hover {
+      text-decoration: none;
+      color: $color-accent;
+    }
   }
 
   small {
     font-size: 75%;
-    font-weight: 400;
-    color: #c0c0c0;
+    font-weight: $font-weight-normal;
+    color: $color-text-muted;
     letter-spacing: 0;
+  }
+}
+
+@media (max-width: $bp-large) {
+  .masthead-title {
+    text-align: center;
+
+    small {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 70%;
+    }
   }
 }

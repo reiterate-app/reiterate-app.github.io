@@ -5,15 +5,16 @@
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
 
 // Blog post or page title
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: $color-text-primary;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -23,16 +24,20 @@
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-bottom: $spacing-md;
+  color: $color-text-muted;
+  font-size: 0.9rem;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
-
 
 // Related posts
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-xl;
+  border-top: 1px solid $color-border;
+  margin-top: $spacing-2xl;
 }
 
 .related-posts {
@@ -41,16 +46,20 @@
 
   h3 {
     margin-top: 0;
+    color: $color-text-primary;
   }
 
   li {
+    margin-bottom: $spacing-sm;
+
     small {
       font-size: 75%;
-      color: #999;
+      color: $color-text-muted;
+      font-weight: $font-weight-medium;
     }
 
     a:hover {
-      color: #268bd2;
+      color: $color-accent;
       text-decoration: none;
 
       small {

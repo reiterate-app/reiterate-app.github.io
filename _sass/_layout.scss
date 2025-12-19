@@ -3,13 +3,27 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
+  max-width: $container-max-mobile;
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
+  margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $bp-medium) {
+    max-width: $container-max-tablet;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  @media (min-width: $bp-large) {
+    max-width: $container-max-desktop;
+  }
+
+  @media (min-width: $bp-xlarge) {
+    max-width: $container-max-wide;
+  }
 }
 
 footer {
-  margin-bottom: 2rem;
+  margin-bottom: $spacing-lg;
 }
