@@ -57,8 +57,15 @@ a {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 $spacing-md;
+  margin: 0 auto $spacing-md;
   border-radius: $border-radius-md;
+
+  // Limit screenshot size for better readability
+  .page &,
+  .post & {
+    max-width: 400px;
+    height: auto;
+  }
 }
 
 table {

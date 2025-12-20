@@ -77,7 +77,7 @@ The gallery scrolls horizontally as you scan more people.
 
 ### Delete a Face (Swipe-to-Remove)
 
-To remove someone from the pool, **swipe up on their thumbnail** while in scanning mode. The face is removed from the gallery and won't be included in the selection. You can delete faces anytime before triggering a selection.
+To remove someone from the pool, **swipe up on their thumbnail** while in scanning mode. The face is removed from the gallery and won't be included in the selection. Note that you can't delete faces that are actively being scanned—those with an animated dot border around them. Move the camera away from that person first, then delete their thumbnail.
 
 ![Swipe-to-delete gesture on thumbnail](/assets/images/photo-start-screenshot-7.png)
 
