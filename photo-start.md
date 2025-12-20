@@ -110,3 +110,7 @@ You need at least 2 scanned faces before you can trigger a selection. If you try
 Photo Start uses your phone's motion sensors for orientation-based triggers. **Hold your phone upright** (portrait mode) while scanning faces.
 
 **Laying the phone flat on a table** (face-up, screen visible) triggers the selection automatically. Alternatively, the **Roll** button is always available and performs the same function.
+
+---
+
+For information about how Photo Start handles your data, see the [Privacy Policy](/privacy-policy).
