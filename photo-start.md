@@ -41,7 +41,7 @@ You need at least 2 scanned faces before you can trigger a selection.
 
 ### Step 4: The Selection Animation
 
-The app displays a tunnel animation with expanding colored rings, waves, and particle effects. The sequence takes about 7 seconds. Sound effects play during the animation.
+The app displays a tunnel animation with expanding colored rings, waves, and particle effects. By default, the sequence takes about 5 seconds, but you can adjust this duration in Settings. Sound effects play during the animation.
 
 ![Tunnel animation with rings](/assets/images/photo-start-screenshot-4.png)
 
@@ -80,6 +80,22 @@ The gallery scrolls horizontally as you scan more people.
 To remove someone from the pool, **swipe up on their thumbnail** while in scanning mode. The face is removed from the gallery and won't be included in the selection. Note that you can't delete faces that are actively being scanned—those with an animated dot border around them. Move the camera away from that person first, then delete their thumbnail.
 
 ![Swipe-to-delete gesture on thumbnail](/assets/images/photo-start-screenshot-7.png)
+
+## App Settings
+
+To access Settings, tap the **More** button (three dots) in the upper right corner of the screen.
+
+### Animation Length
+
+You can adjust how long the selection animation runs before revealing the winner:
+
+- **Short** (3 seconds) - Quick selection for faster gameplay
+- **Medium** (5 seconds) - Balanced animation length (default)
+- **Long** (7 seconds) - Full dramatic effect
+
+### Help & Documentation
+
+The Settings page includes a link to view this User Guide anytime you need a refresher on how to use Photo Start.
 
 ## Pro Tips & Troubleshooting
 

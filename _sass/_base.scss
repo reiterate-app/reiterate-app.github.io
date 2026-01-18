@@ -57,14 +57,16 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   margin: 0 auto $spacing-md;
   border-radius: $border-radius-md;
 
-  // Limit screenshot size for better readability
-  .page &,
-  .post & {
-    max-width: 400px;
-    height: auto;
+  // Limit screenshot size for better readability on larger screens
+  @media (min-width: $bp-medium) {
+    .page &,
+    .post & {
+      max-width: 400px;
+    }
   }
 }
 
